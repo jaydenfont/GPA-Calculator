@@ -1,7 +1,12 @@
 # jaydenfont-gpacalculator
 GPA Calculator using Tkinter API
 
+Screenshots: 
+
 ![Image description](https://github.com/jaydenfont/jaydenfont-gpacalculator/blob/master/EmptyGui.png)
+![Image description](https://github.com/jaydenfont/jaydenfont-gpacalculator/blob/master/FilledGuiNoRound.png)
+![Image description](https://github.com/jaydenfont/jaydenfont-gpacalculator/blob/master/FilledGuiRound.png)
+
 Directions:
 
     Run the gui file to bring up the program
@@ -41,3 +46,5 @@ Things to work on:
     To Do:
         add option to calculate cumulative gpa
         have first window ask if user is overloading, then transition to next window which has appropriate number of fields
+        
+
