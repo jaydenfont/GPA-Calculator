@@ -1,6 +1,7 @@
 # jaydenfont-gpacalculator
 GPA Calculator using Tkinter API
 
+![Image description](https://github.com/jaydenfont/jaydenfont-gpacalculator/blob/master/EmptyGui.png)
 Directions:
 
     Run the gui file to bring up the program
