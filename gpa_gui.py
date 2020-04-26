@@ -152,7 +152,7 @@ class MainWindow:
         self.c5entry = tk.Entry(master)
         self.c5entry.grid(row=8, column=2)
 
-        self.roundVar = tk.IntVar() # 0 or 1
+        self.roundVar = tk.IntVar() # stores response from check box as 0 or 1
         self.roundBox = tk.Checkbutton(master, text='Round to 2 Decimals?', var=self.roundVar)
         self.roundBox.grid(row=9, column=3)
         self.calculateButton = tk.Button(master, text='Calculate', width=10, height=3,
