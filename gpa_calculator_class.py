@@ -42,8 +42,10 @@ class Calculator:
         total_pts = (Calculator.letter_values.get(g1) * c1) + (Calculator.letter_values.get(g2) * c2) + (
                     Calculator.letter_values.get(g3) * c3) + (Calculator.letter_values.get(g4) * c4) + (
                                 Calculator.letter_values.get(g5) * c5)
+        print('pts = ' + str(total_pts))
         total_credits = c1 + c2 + c3 + c4 + c5
         gpa = total_pts / total_credits
+
         return gpa
 
     '''
@@ -136,7 +138,7 @@ class Calculator:
             else:
                 print('Invalid')
         else:
-            return print('Okay')
+            print('Okay')
 
     def cumulative_obj(self, total_credits, total_pts):  # parameters from .round()
 
@@ -164,7 +166,7 @@ class Calculator:
             else:
                 print('Invalid')
         else:
-            return print('Okay')
+            print('Okay')
 
     def exitFromWindow():
         input('Press enter to exit')

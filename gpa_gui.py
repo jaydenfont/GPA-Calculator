@@ -59,13 +59,13 @@ class MainWindow:
                 credits[creditListIndex] = int(grade)
             creditListIndex += 1
         print('Credits: {}'.format(credits))
-
+        gpa = 0
         # Calculates and rounds, checking to make sure the user input something, and that each class is filled completely
         if equalLength == True:
             try:
-                gpa = Calc.calculate_button(grades[0], credits[0], grades[1], credits[1], grades[2], credits[2], grades[3],
-                                            credits[3], grades[4], credits[4])
-            except:
+                gpa = Calc.calculate_button(grades[0], credits[0], grades[1], credits[1], grades[2], credits[2], grades[3], credits[3], grades[4], credits[4])
+                print('success')
+            except ValueError:
                 self.errorLabel = tk.Label(root, text='Error: Must enter at least one class.', width = 40)
                 self.errorLabel.grid(row=9, column=1)
                 print("user failed to enter data for one class")
